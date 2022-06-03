@@ -2,6 +2,8 @@ module github.com/KiritoNya/gobooru-server
 
 go 1.17
 
+replace github.com/KiritoNya/gobooru-server/internal/models  => ./internal/models
+
 require (
 	github.com/KiritoNya/gobooru-server/models v0.0.0-20220603193808-39f207d1db30
 	gorm.io/driver/sqlite v1.3.2
