@@ -1,5 +1,3 @@
-github.com/KiritoNya/gobooru-server/models v0.0.0-20220603193808-39f207d1db30 h1:C2zOel+yp8l3cc4hsiE8TWrs+DslXJIlqLAAx9Dn6VA=
-github.com/KiritoNya/gobooru-server/models v0.0.0-20220603193808-39f207d1db30/go.mod h1:rmCxpEBZwWDg68MSB/p7pPkR6FP7+94bGHlEXlrxADo=
 github.com/PuerkitoBio/goquery v1.5.1/go.mod h1:GsLWisAFVj4WgDibEWF4pvYnkVQBpKBKeU+7zCJoLcc=
 github.com/andybalholm/cascadia v1.1.0/go.mod h1:GsXiBklL0woXo1j/WYWtSYYC4ouU9PqHO0sqidkEA4Y=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

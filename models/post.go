@@ -16,6 +16,7 @@ type Post struct {
 	ThumbnailUrl       string
 	Tags               []Tag  `gorm:"many2many:post_tags"`
 	Relations          []Post `gorm:"many2many:post_relations"`
+	CreatorID          int
 	Creator            User
 	Score              int
 	TagCount           int

@@ -10,7 +10,8 @@ type Pool struct {
 	gorm.Model
 	Version     int
 	Names       pq.StringArray `gorm:"type:text[]"`
+	CategoryID  int
 	Category    PoolCategory
-	Posts       []Post
+	Posts       []Post `gorm:"many2many:post_pools"`
 	Description string
 }
