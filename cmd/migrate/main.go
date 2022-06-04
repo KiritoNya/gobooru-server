@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/KiritoNya/gobooru-server/models"
+	"github.com/KiritoNya/gobooru-server/internal/model"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
@@ -30,13 +30,13 @@ func main() {
 		Logger: &recorder,
 	})
 	err = session.AutoMigrate(
-		&models.TagCategory{},
-		&models.Tag{},
-		&models.User{},
-		&models.Comment{},
-		&models.PoolCategory{},
-		&models.Pool{},
-		&models.Post{},
+		&model.TagCategory{},
+		&model.Tag{},
+		&model.User{},
+		&model.Comment{},
+		&model.PoolCategory{},
+		&model.Pool{},
+		&model.Post{},
 	)
 	if err != nil {
 		panic(err)
