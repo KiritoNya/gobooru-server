@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/gin-gonic/gin v1.8.0
-	github.com/go-sql-driver/mysql v1.5.0
+	github.com/go-sql-driver/mysql v1.6.0
 	github.com/jinzhu/gorm v1.9.16
 	github.com/lib/pq v1.10.6
 	gorm.io/driver/sqlite v1.3.2
@@ -33,4 +33,5 @@ require (
 	golang.org/x/text v0.3.6 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gorm.io/driver/mysql v1.3.4 // indirect
 )
